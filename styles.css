@@ -81,7 +81,6 @@ button:hover {
         padding: 18px 4vw;
         margin: 24px auto;
         border-radius: 10px;
-        /* border: 2.5px solid #fff; */
         box-sizing: border-box;
     }
     h1 {
@@ -91,15 +90,19 @@ button:hover {
         font-size: 1.1rem;
     }
     #cityInput {
-        width: 100%;
+        width: 90%;
         margin-bottom: 10px;
         margin-right: 0;
-        font-size: 1rem;
+        font-size: 0.95rem;
+        padding: 8px;
+        box-sizing: border-box;
+        max-width: 250px;
     }
     button {
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
         padding: 10px 0;
+        max-width: 250px;
     }
     .weather-icon {
         width: 60px;
